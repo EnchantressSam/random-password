@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+}
+
+base {
+  color: #1a1a1d;
+  color: #4e4e50;
+  color: #6f2232;
+  color: #950740;
+  color: #c3073f;
+}
+body {
+  color: #c3073f;
+  background-color: #1a1a1d;
+  font-size: 18px;
+}
+.container{
+  margin: 12%;
+  width: 90%;
+  max-width: 700px;
+}
+.display{
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background: #4e4e50;
+  color: #950740;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 26px 20px;
+  border-radius: 5px;
+}
+.container h1{
+  font-weight: 500;
+  font-size: 45px;
+}
+.container h1 span{
+ color: #950740;
+ border-bottom:  4px solid #950740;
+ padding-bottom: 7px;
+}
+.display img{
+  width: 37px;
+  cursor: pointer;
+}
+.display input{
+  border: 0;
+  outline: 0;
+  font-size: 24px;
+}
+.display input{
+  background-color: #4e4e50;
+  color: #c3073f;
+}
+.display input::placeholder{
+  color: #c3073f;
+}
+.container button img{
+  width: 40px;
+  margin-right: 10px;
+}
+.container button{
+  border: 0;
+  outline: 0;
+  background-color: #4e4e50;
+  color: #c3073f;
+  font-size: 22px;
+  font-weight: 400;
+  display: flex;
+  padding: 16px 26px;
+  border-radius: 3px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
